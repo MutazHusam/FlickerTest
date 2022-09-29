@@ -1,0 +1,33 @@
+.Card {
+  /* width: 50%; */
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.Card > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cardsContainer {
+  display: flex;
+  column-gap:26px;
+  row-gap: 26px;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.cardsContainer > div {
+  width: 31%;
+}
+
+.IconButton {
+  /* background: #f00; */
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  color: #fff;
+  cursor: pointer;
+}

@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  justify-content: space-around;
+  height: fit-content;
+}
+.contentContainer {
+  background: #f4f4f4;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+/* .ContainerPagination ul{ 
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: start;
+background: #f9f9f9;
+width: 101%;
+border: 0;
+color: #fff;
+height: 14px;
+padding: 20px 0;
+}
+.ContainerPagination li{
+  width: 30px;
+} */
